@@ -2,7 +2,7 @@
 var friends = [
     {
         "name": "Ahmed",
-        "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+        "photo": "https://ia.media-imdb.com/images/M/MV5BMTcxMTQ4MzY2Nl5BMl5BanBnXkFtZTgwMzAxOTY3MjI@._V1_UY317_CR13,0,214,317_AL_.jpg",
         "scores": [
             5,
             1,
@@ -18,7 +18,7 @@ var friends = [
     },
     {
         "name": "Mr. Coffee",
-        "photo": "https://cdn.pixabay.com/photo/2017/09/04/18/39/coffee-2714970_1280.jpg",
+        "photo": "https://i.kinja-img.com/gawker-media/image/upload/s--5B2hP9As--/c_scale,f_auto,fl_progressive,q_80,w_800/u9nnk06i8co1dxhldgcm.jpg",
         "scores":[
             3,
             2,
@@ -34,7 +34,7 @@ var friends = [
     },
     {
         "name": "Ms. Whiskers",
-        "photo": "https://cdn.pixabay.com/photo/2017/08/23/08/33/cats-eyes-2671903_1280.jpg",
+        "photo": "https://c2.staticflickr.com/8/7436/28057380621_1c08034302_o.jpg",
         "scores":[
             5,
             4,
@@ -49,8 +49,8 @@ var friends = [
         ]
     },
     {
-        "name": "Ballin Eagle",
-        "photo": "https://cdn.pixabay.com/photo/2017/09/04/20/52/bald-eagle-2715461_1280.jpg",
+        "name": "Baller",
+        "photo": "https://www.thewrap.com/wp-content/uploads/2015/06/hbo-ballers-dwayne-johnson-the-rock-car.jpg",
         "scores":[
             2,
             3,
@@ -65,24 +65,8 @@ var friends = [
         ]
     },
     {
-        "name": "UR Scary",
-        "photo": "https://cdn.pixabay.com/photo/2017/08/23/08/01/animals-2671825_1280.jpg",
-        "scores":[
-            4,
-            5,
-            4,
-            4,
-            1,
-            4,
-            4,
-            3,
-            4,
-            4
-        ]
-    },
-    {
-        "name": "True Love",
-        "photo": "https://cdn.pixabay.com/photo/2013/10/16/23/08/elephants-196613_1280.jpg",
+        "name": "Wonder Woman",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Gal_Gadot_2014_Comic_Con1.jpg",
         "scores":[
             3,
             3,

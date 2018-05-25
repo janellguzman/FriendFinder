@@ -23,6 +23,7 @@ module.exports = function (app) {
     app.post("/api/friends", function (req, res) {
         // Our "server" will respond to requests and provide users with all the "friends"
         friends.push(req.body);
+        console.log(friends);
     });
 
 }

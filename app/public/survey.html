@@ -188,7 +188,7 @@
         </div>
         <div class="modal-body">
           <h2 id="match-name">Pat</h2>
-          <img id="match-img" src="http://cdn3-www.dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/prance-8.jpg" alt="">
+          <img id="match-img" src="http://cdn3-www.dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/prance-8.jpg" style="width: 300px; height: 300px" alt="">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -263,11 +263,11 @@
         };
 
         // AJAX post the data to the friends API.
-        $.post("/api/friends", userData, function(data) {
+        $.post("/api/friends", userData, function(friends) {
 
           // Grab the result from the AJAX post so that the best match's name and photo are displayed.
-          $("#match-name").text(data.name);
-          $("#match-img").attr("src", data.photo);
+          $("#match-name").text(friends.name);
+          $("#match-img").attr("src", friends.photo);
 
           // Show the modal with the best match
           $("#results-modal").modal('show');
